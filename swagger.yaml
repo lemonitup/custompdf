@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: Test
+  description: |-
+    [Click here](javascript:alert(document.domain))
+  version: "1.0"
+paths:
+  /test:
+    get:
+      description: |-
+        [Proof](javascript:alert(document.domain))
+      responses:
+        200:
+          description: ok

@@ -1,0 +1,10 @@
+openapi: 3.0.0
+info:
+  title: Test
+  description: |-
+    [Click](Javas%09cript:alert(document.domain))
+    [Click2](javas      cript:alert(document.domain))
+    [Click3](\x01javascript:alert(document.domain))
+    [Click4](\njavascript:alert(document.domain))
+  version: "1.0"
+paths: {}

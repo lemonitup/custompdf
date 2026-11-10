@@ -1,0 +1,12 @@
+
+description: |
+  [test](data:text/html,<script>alert(document.domain)</script>)
+
+description: |
+  [test](JaVaScRiPt:alert(document.domain))
+
+description: |
+  [test](javascript&colon;alert(document.domain))
+
+description: |
+  [test](&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;alert(document.domain))

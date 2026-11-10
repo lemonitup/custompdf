@@ -1,0 +1,21 @@
+openapi: "3.0.0"
+info:
+  title: "Test"
+  version: "1.0.0"
+  description: "safe"
+  termsOfService: "javascript:alert(document.domain)"
+paths:
+  /test:
+    get:
+      summary: "test"
+      responses:
+        "200":
+          description: "ok"
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "<img src=x onerror=alert(document.domain)>"
+servers:
+  - url: "javascript:alert(document.domain)"
+    description: "test"
